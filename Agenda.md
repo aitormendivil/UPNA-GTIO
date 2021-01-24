@@ -1,11 +1,13 @@
 # Agenda
 
+*Nota: Esta planificación es orientativa y puede ser modificada sin previo aviso*
+
 ## Febrero
 
 * 1 [Introducción y Organización de la Asignatura](Introduccion.md)
 * 3 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
-* 8
-* 10
+* 8 [Herramientas para la Gestión de Proyectos](Herramientas-Gestion-Proyectos.md). [RFI I](RFI/I.md)
+* 10 Trabajo Libre
 * 11
 * 15
 * 17
