@@ -148,7 +148,7 @@ Los más conocidos/utilizados en empresas tecnológicas son los siguientes:
 * CMMI
 
 #### Tradicional
-*José Javier Astráin Escola*
+*Autor: José Javier Astráin Escola*
 
 Consiste en dividir el proyecto en diferentes procesos que se ejecutan de forma secuencial. Típico del ámbito industrial
 
@@ -191,9 +191,11 @@ Es una metodología fácil de seguir y de llevar a cabo, no obstante, en proyect
 volver al diseño del proyecto por completo antes de avanzar, por lo que lo hace muy poco flexible.
 
 Es necesario esperar a que el software esté terminado para probarlo, a menudo esto hace que se encuentren errores muy
-difíciles de resolver que retrasan en gran medida los proyectos. 
+difíciles de resolver que retrasan en gran medida los proyectos.
 
 >**En nuestro proyecto puede que los requisitos sean cambiantes**
+
+
 
 ## ITIL e ITSM
 
