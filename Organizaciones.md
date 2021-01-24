@@ -123,7 +123,81 @@ Tipos de dirección:
 
 **Ejercicios cooperativos**
 
-> Discutir sobre las distintas formas de dirección y establecer la forma elegida
+> Discutir sobre las distintas formas de dirección y exponer la forma elegida
 en cada equipo
 
 ## Gestión de Proyectos
+
+* La gestión de proyectos es crucial en la consecución de objetivos y el seguimiento de los planes y expectativas.
+* Es frecuente ver que se depositan grandes esperanzas y expectativas en los proyectos, y que los miembros del equipo colaboran activamente, pero aún así no todo termina siempre como se había previsto.
+* Se precisan modelos de gestión de proyectos y procesos que permitan a los gestores de proyectos planificar y alcanzar las metas de cada proyecto.
+
+Es necesario decidir cuál es el modelo de gestión de proyectos para cada equipo/proyecto. Las herramientas tecnológicas
+corporativas deberán permitir cierta flexibilidad para adaptarse a distintos tipos de proyectos.
+
+### Modelos de Gestión
+
+Los más conocidos/utilizados en empresas tecnológicas son los siguientes:
+* Tradicional
+* Waterfall o Desarrollo en cascada
+* Agile
+  * Kanban
+  * Scrum
+* Lean
+* RUP
+* CMMI
+
+#### Tradicional
+*José Javier Astráin Escola*
+
+Consiste en dividir el proyecto en diferentes procesos que se ejecutan de forma secuencial. Típico del ámbito industrial
+
+Procesos:
+* Inicialización: definición inicial del proyecto y fases, junto con la aprobación de su inicio.
+* Planificación: desarrollo de los diferentes planes de gestión.
+* Ejecución: realización de las tareas planificadas en la fase anterior con objeto de completar los entregables.
+* Seguimiento y control: supervisión de las tareas ejecutadas, comparación con la planificación (líneas base), y definición y aplicación de correcciones en caso de desviaciones.
+* Cierre: finalización de la fase o proyecto
+  * por haber conseguido la aprobación del conjunto de entregables
+  * por no ser posible conseguir alcanzar los entregables,
+  * porque el proyecto ha dejado de tener motivo de ser.
+
+Áreas de conocimiento ([PMI](https://www.pmi.org/pmbok-guide-standards))
+* Integración: Incluye los procesos y actividades requeridos para identificar, definir,
+combinar, unificar y coordinar los mismo a realizar por los grupos de trabajo.
+* Alcance:  Incluye los procesos requeridos para asegurar la realización de todo el trabajo a aplicar en el proyecto, y no solo realizar aquellos que completen el proyecto.
+* Tiempo: Incluye los procesos requeridos para la correcta administración de tiempo.
+* Costes: Incluye los procesos involucrados en la planificación, estimación, presupuesto, financiamiento, costeo, administración y control de costos; con el objetivo de que el proyecto sea realizado con un presupuesto apropiado
+* Calidad:  Incluye los procesos y actividades involucrado en el rendimiento de organización, que define la política de calidad, objetivos y responsabilidades para que el proyecto satisfaga las necesidades por las que se hizo
+* Recursos Humanos
+* Comunicación: Incluye los procesos requeridos para asegurar en tiempo y forma la planificación, recolección, creación, distribución, almacenaje, recuperación, administración, control, monitoreo y disposición de la información del proyecto.
+* Riesgo: Incluye los procesos que planean, identifican, analizan, y controlan los posibles o actuales riesgos del proyecto.
+* Adquisición: Incluye todos los procesos necesarios para la adquisición y compra de productos, bienes, servicios o resultados requeridos del exterior por el equipo de trabajo.
+* Interesados: Incluye todos los procesos requeridos para identificar los grupos u organización que impacta el proyecto; analizando sus expectativas y desarrollar las estrategias necesarias para impactar positivamente en la ejecución y decisiones de los interesados.
+
+Recurso interesante : [Guía PMBOK](https://uacm123.weebly.com/index.html)
+
+#### Waterfall/Cascada
+
+Está basado en el desarrollo secuencial de las siguientes fases:
+
+1. Análisis de requisitos
+1. Diseño
+1. Implementación
+1. Verificación
+1. Mantenimiento
+
+Es una metodología fácil de seguir y de llevar a cabo, no obstante, en proyectos de requisitos cambiantes es necesario
+volver al diseño del proyecto por completo antes de avanzar, por lo que lo hace muy poco flexible.
+
+Es necesario esperar a que el software esté terminado para probarlo, a menudo esto hace que se encuentren errores muy
+difíciles de resolver que retrasan en gran medida los proyectos. 
+
+>**En nuestro proyecto puede que los requisitos sean cambiantes**
+
+## ITIL e ITSM
+
+WIP
+
+https://en.wikipedia.org/wiki/IT_service_management
+https://en.wikipedia.org/wiki/ITIL
