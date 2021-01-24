@@ -1,4 +1,4 @@
-# Introducción y Organización a la Asignatura
+# Introducción y Organización de la Asignatura
 
 ## Horario
 

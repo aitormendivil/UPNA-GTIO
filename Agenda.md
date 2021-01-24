@@ -2,7 +2,7 @@
 
 ## Febrero
 
-* 1 [Introducción y Organización a la Asignatura](Introduccion.md)
+* 1 [Introducción y Organización de la Asignatura](Introduccion.md)
 * 3 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
 * 8
 * 10
