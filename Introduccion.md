@@ -1,8 +1,16 @@
 # Introducción y Organización de la Asignatura
 
+[Ficha de la asignatura](http://www.unavarra.es/ficha-asignaturaDOA?idioma=es&codAsig=72977)
+
 ## Horario
 
 Lunes y Miércoles de 17.00 a 19.00
+
+## Evaluación
+
+* Entregas: 30% (No recuperable)
+* Proyecto Final: 40% (Recuperable)
+* Examen: 30% (Recuperable)
 
 ## Responsable y Docencia
 
@@ -55,3 +63,7 @@ ___
 
 > Establecer los grupos y los jefes de equipo. En caso de que los grupos sean
 diferentes a los existentes en la asignatura de Sistemas Distribuidos decidir el código del replicador a utilizar
+
+> Pensar en los procesos que dan valor a una organización, a un equipo y a un producto tecnológico
+
+> Por equipos. Elegid un software conocido y que os guste. Listad las tecnologías y procesos que creéis que están involucradas en su desarrollo.  

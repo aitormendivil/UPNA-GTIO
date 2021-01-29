@@ -89,7 +89,7 @@ se vayan planteando**
 
 > ¿Qué son tareas y funciones?
 
-> ¿Cuál es la labor de un jefe de equipo?
+> ¿Cuáles son las labores de un jefe de equipo?
 
 ## Modelos de dirección  
 
@@ -123,8 +123,10 @@ Tipos de dirección:
 
 **Ejercicios cooperativos**
 
-> Discutir sobre las distintas formas de dirección y exponer la forma elegida
+> Discutid sobre las distintas formas de dirección y exponer la forma elegida
 en cada equipo
+
+> Elegid el jefe en cada equipo. ¿Por qué esa persona?
 
 ## Gestión de Proyectos
 
@@ -195,7 +197,46 @@ difíciles de resolver que retrasan en gran medida los proyectos.
 
 >**En nuestro proyecto puede que los requisitos sean cambiantes**
 
+#### Agile
 
+[Agile Manifesto](https://agilemanifesto.org)
+
+El objetivo principal de las metodologías Ágiles consiste en ofrecer entregas
+continuas con una parte de la funcionalidad.  
+
+**Ejercicio**
+
+> ¿Cómo construiríamos un coche usando una metodología Ágil? ¿Y una App de Android?
+
+##### Scrum
+
+Es un marco de trabajo para ayudar a los equipos a realizar un proyecto fe forma
+ágil.
+
+[Guía en Inglés](https://www.scrumguides.org/scrum-guide.html)
+
+**Ejercicio cooperativo**
+
+> Sin mirar todavía la guía de Scrum. ¿Qué sabemos de Scrum?. Anotad los roles, eventos y
+ artefactos que recordéis.
+
+Scrum no es una metodología, es un marco de desarrollo. Pero habitualmente nos referimos a
+Scrum de cualquiera de las dos maneras.
+
+##### Kanban
+
+Es un flujo de trabajo que sirve para maximizar la eficiencia en un contexto de numerosas interrupciones o cambios en los requisitos. Se integra muy fácilmente en organizaciones
+que ya tienen otros flujos implementados.
+
+###### Principios
+
+1. Visualizar el flujo de trabajo mediante paneles o boards
+2. Limitar el número de tareas que están en proceso
+3. Se gestiona el trabajo no a las personas
+
+**Ejercicio**
+
+> Sin investigar ni mirar en internet, desarrollad un board de kanban 
 
 ## ITIL e ITSM
 
