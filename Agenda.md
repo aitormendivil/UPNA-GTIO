@@ -6,8 +6,8 @@
 
 * 1 [Introducción y Organización de la Asignatura](Introduccion.md)
 * 3 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
-* 8 [Herramientas para la Gestión de Proyectos](Herramientas-Gestion-Proyectos.md). [Gestión de la configuración](Gestion-Configuracion.md)
-* 10 ADRs. __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre*
+* 8 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
+* 10 [ADR](ADR/README.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre*
 * 15 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 17 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 22 __Evaluación [RFI I](RFI/RFI-I.md)__
