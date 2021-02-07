@@ -10,6 +10,10 @@ Gestión tecnologías informáticas en las organizaciones.
 
 [Calendario Académico](PDF/calendario.pdf)
 
+[Feedback Continuo](https://forms.gle/C8nx9SeUsMHEnxVu5)
+
+Comparte este curso con el enlace: https://bit.ly/3alGkku
+
 ### Otros Recursos:
 
 [Dominando Markdown](https://guides.github.com/features/mastering-markdown/)
