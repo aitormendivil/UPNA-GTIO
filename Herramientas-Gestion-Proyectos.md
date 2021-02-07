@@ -8,15 +8,16 @@ artefactos que nos van a ayudar a realizar la gestión del proyecto, y posterior
 
 Una vez decididos los artefactos con los que queremos trabajar, es necesario disponer de las herramientas que nos permitan disponer de estos artefactos.
 
-Una práctica habitual general es disponer de una herramienta en la que se puedan incluir tareas o *historas de usuario*, y asignarlas a un miembro del equipo, que pasará a ser el responsable de realizar o hacer que se realice esa tarea.
+Una práctica habitual general es disponer de una herramienta en la que se puedan incluir *tareas* o *historas de usuario*, y asignarlas a un miembro del equipo, que pasará a ser el responsable de realizar o hacer que se realice esa tarea.
 
-En Scrum estas tareas se organizan en objetivos tácticos o estrátegicos denominados *épicas*. El conjunto de épicas y tareas que no se están realizando en un Sprint se denomina *backlog* y es responsabilidad del Product Owner el priorizarlas, peor es responsabilidad de todo el equipo que estén actualizadas y con las descripciones oportunas.
+En *Scrum* estas tareas se organizan en objetivos tácticos o estrátegicos denominados *épicas*. El conjunto de épicas y tareas que no se están realizando en un Sprint se denomina *backlog* y es responsabilidad del *Product Owner* priorizar ese *backlog*, no obstante es responsabilidad de todo el equipo que las historias estén debidamente actualizadas, con las descripciones oportunas, y sus estimaciones.
+También es responsabilidad de los miembros del equipo llevar la contabilidad del tiempo dedicado a cada una de las *historias de usuario*
 
-En kanban por ejemplo el backlog solo consiste en tareas que se prioirzan, no obstante se pueden tener etiquetas dependiendo del ámbito.
+En *Kanban* por ejemplo el backlog solo consiste en tareas que se priorizan, no obstante se pueden tener etiquetas dependiendo del ámbito.
 
-En Scrum una de las métricas más importantes es el *Burndown Chart* o velocidad,
+En *Scrum* una de las métricas más importantes es el *Burndown Chart* o gráfico de velocidad,
 que indica la cantidad de puntos de historia que es capaz de realizar un equipo
-scrum por Sprint, y cómo esa velocidad cambia a lo largo del tiempo.
+*Scrum* por *Sprint*, y cómo esa velocidad cambia a lo largo del tiempo.
 
 ![Burndown](img/burndown.png)
 
@@ -52,7 +53,7 @@ Ejemplos de configuración de software:
 * Trello
 * Gsuite
 * Excel o similares
-* CLickUp
+* ClickUp
 * Asana
 * OpenProject
 * ProjectLibre
@@ -65,6 +66,7 @@ Ejemplos de configuración de software:
 * Esfuerzo de instalación/registro
 * Curva de aprendizaje
 * Funcionalidades que incluyen
+* SaaS VS On-premise
 
 **Ejercicio por grupos**
 

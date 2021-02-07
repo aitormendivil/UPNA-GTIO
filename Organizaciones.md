@@ -202,7 +202,8 @@ difíciles de resolver que retrasan en gran medida los proyectos.
 [Agile Manifesto](https://agilemanifesto.org)
 
 El objetivo principal de las metodologías Ágiles consiste en ofrecer entregas
-continuas con una parte de la funcionalidad.  
+continuas incrementando gradualmente la funcionalidad. De esta forma se es
+más reactivo ante el cambio en los requisitos.   
 
 **Ejercicio**
 
@@ -215,12 +216,18 @@ Es un marco de trabajo para ayudar a los equipos a realizar un proyecto fe forma
 
 [Guía en Inglés](https://www.scrumguides.org/scrum-guide.html)
 
+[Scrum Cheatsheet](PDF/scrum.pdf) ([fuente](https://www.agile42.com/en/agile-info-center/scrum/scrum-cheat-sheet/))
+
 **Ejercicio por grupos**
 
 > Sin mirar todavía la guía de Scrum. ¿Qué sabemos de Scrum?. Anotad los roles, eventos y artefactos que recordéis.
 
 Scrum no es una metodología, es un marco de desarrollo. Pero habitualmente nos referimos a
 Scrum de cualquiera de las dos maneras.
+
+**Ejercicio por grupos**
+
+> Ventajas y Desventajas de Scrum para la gestión de un proyecto de software
 
 ##### Kanban
 
