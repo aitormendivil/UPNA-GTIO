@@ -3,244 +3,198 @@
 
 [Fuente Original](https://github.com/joelparkerhenderson/architecture_decision_record)
 
-An architectural decision record (ADR) is a document that captures an important architectural decision made along with its context and consequences.
+Un ADR o architectural decision record es un documento que captura una decisión importante de arquitectura, junto con el contexto, las alternativas contempladas y las consecuencias de la decisión. Aunque está pensado para arquitectura técnica se puede utilizar en muchos otros ámbitos.
 
-Contents:
+Contenidos:
 
-* [What is an architecture decision record?](#what-is-an-architecture-decision-record)
-* [How to start using ADRs](#how-to-start-using-adrs)
-* [How to start using ADRs with tools](#how-to-start-using-adrs-with-tools)
-* [How to start using ADRs with git](#how-to-start-using-adrs-with-git)
-* [ADR file name conventions](#adr-file-name-conventions)
-* [Suggestions for writing good ADRs](#suggestions-for-writing-good-adrs)
-* [ADR example templates](#adr-example-templates)
-* [Teamwork advice](#teamwork-advice)
-* [For more information](#for-more-information)
-
-
-## What is an architecture decision record?
-
-An **architecture decision record** (ADR) is a document that captures an important architectural decision made along with its context and consequences.
-
-An **architecture decision** (AD) is a software design choice that addresses a significant requirement.
-
-An **architecture decision log** (ADL) is the collection of all ADRs created and maintained for a particular project (or organization).
-
-An **architecturally-significant requirement** (ASR) is a requirement that has a measurable effect on a software system’s architecture.
-
-All these are within the topic of **architecture knowledge management** (AKM).
-
-The goal of this document is to provide a fast overview of ADRs, how to create them, and where to look for more information.
-
-Abbreviations:
-
-  * **AD**: architecture decision
-
-  * **ADL**: architecture decision log
-
-  * **ADR**: architecture decision record
-
-  * **AKM**: architecture knowledge management
-
-  * **ASR**: architecturally-significant requirement
+* [Definiciones](#definiciones)
+* [Empezar a usar ADRs](#empezar-a-usar-adrs)
+* [ADRs con herramientas](#adrs-con-herramientas)
+* [ADRs con git](#adrs-con-git)
+* [Nomenclatura](#nomenclatura)
+* [Sugerencias para redactar buenos ADR](#sugerencias-para-redactar-buenos-adr)
+* [Plantillas](#plantillas)
+* [Consejos para el trabajo en equipo](#consejos-para-el-trabajo-en-equipo)
+* [Para más información](#para-más-información)
 
 
-## How to start using ADRs
+## Definiciones
 
-To start using ADRs, talk with your teammates about these areas.
+Un **architecture decision record** (ADR) es un documento que captura una decisión importante de arquitectura, junto con el contexto, las alternativas contempladas y las consecuencias de la decisión
 
-Decision identification:
+Un **architecture decision** (AD) Es una elección de diseño de software para un requisito concreto.
 
-  * How urgent and how important is the AD?
+Un **architecture decision log** (ADL) Es la colección completa de ADRs para un proyecto u organización.
 
-  * Does it have to be made now, or can it wait until more is known?
+Un **architecturally-significant requirement** (ASR) Es un requerimiento que tiene un efecto importante sobre el software.
 
-  * Both personal and collective experience, as well as recognized design methods and practices, can assist with decision identification.
+Todas se embarcan dentro de **architecture knowledge management** (AKM) o gestión del conocimiento de la arquitectura.
 
-  * Ideally maintain a decision todo list that complements the product todo list.
+El objetivo de este documento consiste en proveer una visión general de los ADRs, cómo crearlos y dónde encontrar más información.
 
-Decision making:
+Abreviaciones (Como ya vamos viendo por lo general se utiliza el inglés):
 
-  * A number of decision making techniques exists, both general ones and software architecture specific ones, for instance, dialogue mapping.
-
-  * Group decision making is an active research topic.
-
-Decision enactment and enforcement:
-
-  * ADs are used in software design; hence they have to be communicated to, and accepted by, the stakeholders of the system that fund, develop, and operate it.
-
-  * Architecturally evident coding styles and code reviews that focus on architectural concerns and decisions are two related practices.
-
-  * ADs also have to be (re-)considered when modernizing a software system in software evolution.
-
-Decision sharing (optional):
-
-  * Many ADs recur across projects.
-
-  * Hence, experiences with past decisions, both good and bad, can be valuable reusable assets when employing an explicit knowledge management strategy.
-
-  * Group decision making is an active research topic.
-
-Decision documentation:
-
-  * Many templates and tools for decision capturing exist.
-
-  * See agile communities, e.g. M. Nygard's ADRs.
-
-  * See traditional software engineering and architecture design processes, e.g. table layouts suggested by IBM UMF and by Tyree and Akerman from CapitalOne.
-
-Decision guidance:
-
-  * The steps above are adopted from the Wikipedia entry on [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
-
-  * A number of decision making techniques exists, both general ones and software and software architecture specific ones, for instance, dialogue mapping.
+* **AD**: architecture decision
+* **ADL**: architecture decision log
+* **ADR**: architecture decision record
+* **AKM**: architecture knowledge management
+* **ASR**: architecturally-significant requirement
 
 
-## How to start using ADRs with tools
+## Empezar a usar ADRs
 
-You can start using ADRs with tools any way you want.
+Para comenzar a usar ADR, hable con sus compañeros de equipo sobre estos temas.
 
-For example:
+Identificación de la decisión:
 
-  * If you like using Google Drive and online editing, then you can create a Google Doc, or Google Sheet.
+* ¿Cómo de urgente o importantes es el AD?
+* ¿Tiene que hacerse ahora o puede esperar hasta que se sepa más?
+* Tanto la experiencia personal como colectiva, así como los métodos y prácticas de diseño reconocidos, pueden ayudar en la identificación de decisiones.
+* Idealmente mantened una lista de decisiones pendientes que complemente la lista de tareas pendientes del producto.
 
-  * If you like use source code version control, such as git, then you can create a file for each ADR.
+Toma de decisiones:
 
-  * If you like using project planning tools, such as Atlassian Jira, then you can use the tool's planning tracker.
+* Existe una serie de técnicas de toma de decisiones, tanto generales como específicas de arquitectura de software, por ejemplo, [Dialogue Mapping](https://www.lucidchart.com/blog/what-is-dialogue-mapping).
 
-  * If you like using wikis, such as MediaWiki, then you can create an ADR wiki.
+Presentación y ejecución de decisiones:
+
+* Los AD se utilizan en el diseño de software; por lo tanto, deben ser comunicados y aceptados por las partes interesadas del sistema que lo financian, lo desarrollan y lo operan.
+* Los AD también deben ser (re)considerados al modernizar un sistema de software durante la evolución o mantenimiento del software.
+
+Compartir decisiones (opcional):
+
+* Muchos AD se repiten entre proyectos.
+
+* Por lo tanto, las experiencias con decisiones pasadas, tanto buenas como malas, pueden ser valiosos activos reutilizables cuando se emplea una estrategia explícita de gestión del conocimiento.
+
+Documentación de la decisión:
+
+* Existen muchas plantillas y herramientas para la captura de decisiones.
+* Ver procesos tradicionales de diseño de arquitectura e ingeniería de software, p. Ej. diseños de tabla sugeridos por IBM UMF y por Tyree y Akerman de CapitalOne.
+
+Orientación para la toma de decisiones:
+
+* Los pasos anteriores se adaptaron de la entrada de Wikipedia sobre [Decisión de arquitectura] (https://en.wikipedia.org/wiki/Architectural_decision)
+* Existen una serie de técnicas de toma de decisiones, tanto generales como específicas de software y arquitectura de software, por ejemplo, [Dialogue Mapping](https://www.lucidchart.com/blog/what-is-dialogue-mapping).
 
 
-## How to start using ADRs with git
+## ADRs con herramientas
 
-If you like using git version control, then here is how we like to start using ADRs with git for a typical software project with source code.
+Puede comenzar a usar ADR con herramientas de la forma que desee.
 
-Create a directory for ADR files:
+Por ejemplo:
+
+ * Si le gusta usar Google Drive y la edición en línea, puede crear un documento de Google o una hoja de Google.
+ * Si desea utilizar el control de versiones del código fuente, como git, puede crear un archivo para cada ADR.
+ * Si le gusta utilizar herramientas de planificación de proyectos, como Atlassian Jira, puede utilizar el rastreador de planificación de la herramienta.
+ * Si le gusta usar wikis, como MediaWiki, puede crear una wiki de ADRs.
+
+
+## ADRs con git
+
+Crea un directorio para los ADRs.
 
 ```sh
 $ mkdir adr
 ```
 
-For each ADR, create a text file, such as `database.txt`:
+Para cada ADR crea un fichero de texto como:  `ADR001-base-de-datos.md`:
 
 ```sh
-$ vi database.txt
+$ vi ADR001-base-de-datos.md
 ```
 
-Write anything you want in the ADR. See the templates in this repository for ideas.
+Escribe lo que quieras en el ADR. Puedes utilizar las plantillas recomendadas.
 
-Commit the ADR to your git repo.
-
-
-## ADR file name conventions
-
-If you choose to create your ADRs using typical text files, then you may want to come up with your own ADR file name convention.
-
-We prefer to use a file name convention that has a specific format.
-
-Examples:
-
-  * choose_database.md
-
-  * format_timestamps.md
-
-  * manage_passwords.md
-
-  * handle_exceptions.md
-
-Our file name convention:
-
-  * The name has a present tense imperative verb phrase. This helps readability and matches our commit message format.
-
-  * The name uses lowercase and underscores (same as this repo). This is a balance of readability and system usability.
-
-  * The extension is markdown. This can be useful for easy formatting.
+Haz un `commit` con el ADR y haz `push` al repositio.
 
 
-## Suggestions for writing good ADRs
+## Nomenclatura
 
-Characteristics of a good ADR:
+Si eliges crear ADRs usando archivos de texto, lo más probable es que necesites una convención de nombres.
 
-  * Point in Time - Identify when the AD was made
+Ejemplos:
 
-  * Rationality - Explain the reason for making the particular AD
+* ADR###_elección_basedatos.md
+* ADR###YYYYMMDD_timestamps.md
+* gestion_contraseñas.md
+* handle_exceptions.md
+* ...
 
-  * Immutable record - The decisions made in a previously published ADR should not be altered
+Ejemplo de convención de nombres
 
-  * Specificity - Each ADR should be about a single AD
+* El nombre utiliza verbos en presente de imperativo.
+* El nombre utiliza minúsculas y guiones bajos.
+* La extensión es markdown.
 
-Characteristics of a good context in an ADR:
+## Sugerencias para redactar buenos ADR
 
-  * Explain your organization's situation and business priorities
+Características de un buen ADR:
 
-  * Include rationale and considerations based on social and skills makeups of your teams
+* Fecha: identifica cuándo se hizo el anuncio
+* Razón: explique la razón por la que se realizó el AD en particular
+* Registro inmutable: las decisiones tomadas en un ADR publicado anteriormente no deben modificarse (para eso existe un nuevo ADR)
+* Especificidad: cada ADR debe ser sobre un solo AD
 
-Characteristics of good Consequences in an ADR::
+Características de un buen contexto en un ADR:
 
-  * Right approach - "We need to start doing X instead of Y"
+* Explique la situación de su organización y las prioridades comerciales.
+* Incluya el fundamento y las consideraciones basadas en las habilidades del equipo.
 
-  * Wrong approach - Do not explain the AD in terms of "Pros" and "Cons" of having made the particular AD
+Características de las buenas consecuencias en un ADR:
 
-A new ADR may take the place of a previous ADR:
+* Enfoque correcto: "Tenemos que empezar a hacer X en lugar de Y"
+* Enfoque incorrecto - No explique el AD en términos de "Pros" y "Contras" de haber realizado el AD en particular.
 
-  * When an AD is made that replaces or invalidates a previous ADR, a new ADR should be created
+Un nuevo ADR puede reemplazar a un ADR anterior:
 
-
-## ADR example templates
-
-ADR example templates that we have collected on the net:
-
-  * [ADR template by Michael Nygard](adr_template_by_michael_nygard.md) (simple and popular)
-
-  * [ADR template by Jeff Tyree and Art Akerman](adr_template_by_jeff_tyree_and_art_akerman.md) (more sophisticated)
-
-  * [ADR template for Alexandrian pattern](adr_template_for_alexandrian_pattern.md) (simple with context specifics)
-
-  * [ADR template for business case](adr_template_for_business_case.md) (more MBA-oriented, with costs, SWOT, and more opinions)
-
-  * [ADR template MADR](adr_template_madr.md) (more Markdown)
-
-  * [ADR template using Planguage](adr_template_using_planguage.md) (more quality assurance oriented)
+* Cuando se realiza un AD que reemplaza o invalida un ADR anterior, se debe crear un nuevo ADR
 
 
-## Consejos par el trabajo en equipo
+## Plantillas
+
+Ejemplos recomendados
+
+* [Español](ADR/plantilla.md)
+* [Inglés](ADR/template.md)
+
+Otros ejemplos de plantillas de ADRs en internet:
+
+* [Plantilla de ADR por Michael Nygard](adr_template_by_michael_nygard.md) (simple y popular)
+* [Plantilla de ADR para caso de negocio](adr_template_for_business_case.md) (más estilo MBA, con costes, con análisis [SWOT](https://en.wikipedia.org/wiki/SWOT_analysis))
+* [Plantilla de ADR MADR](adr_template_madr.md) (más Markdown)
+* [Plantilla de ADR usando Planguage](adr_template_using_planguage.md) (más orientada a la calidas)
+
+
+## Consejos para el trabajo en equipo
 
 Si está considerando usar ADRs con tu equipo, estos son algunos consejos que hemos aprendido trabajando con diferentes equipos.
 
 Tienes la oportunidad de liderar a tus compañeros de equipo, hablando juntos sobre el "por qué", en lugar de exigir el "qué". Por ejemplo, los ADRs son una forma de que los equipos piensen de manera más inteligente y se comuniquen mejor. Los registros de decisiones no son valiosos si son solo un papeleo obligatorio después de
 haber tomado una decisión.
 
-Algunos equipos prefieren el nombre "decisiones" sobre la abreviatura "ADR". Cuando algunos equipos utilizan el nombre de carpeta "decisiones", es como si se enciendese una bombilla y el equipo comenzase a incluir más información en la carpeta, como decisiones de proveedores, decisiones de planificación, decisiones de programación, etc. Todos estos tipos de información pueden utilizar la misma plantilla. 
+Algunos equipos prefieren el nombre "decisiones" sobre la abreviatura "ADR". Cuando algunos equipos utilizan el nombre de carpeta "decisiones", es como si se enciendese una bombilla y el equipo comenzase a incluir más información en la carpeta, como decisiones de proveedores, decisiones de planificación, decisiones de programación, etc. Todos estos tipos de información pueden utilizar la misma plantilla.
 
 En teoría, la inmutabilidad es ideal. En la práctica, la mutabilidad ha funcionado mejor para nuestros equipos. Insertamos la nueva información en el ADR existente, con un sello de fecha y una nota de que la información llegó después de la decisión. Este tipo de enfoque conduce a un "documento vivo" que todos podemos actualizar. Las actualizaciones típicas son cuando obtenemos información gracias a nuevos compañeros de equipo, nuevas ofertas o resultados del mundo real de nuestros usos, o cambios posteriores de terceros, como capacidades de proveedores, planes de precios, acuerdos de licencia, etc.
-
 
 ## Para más información
 
 Introducción:
 
-  * [Architectural decision (wikipedia.org)](https://wikipedia.org/wiki/Architectural_decision)
-
-  * [Architecturally significant requirements (wikipedia.org)](https://wikipedia.org/wiki/Architecturally_significant_requirements)
+* [Architectural decision (wikipedia.org)](https://wikipedia.org/wiki/Architectural_decision)
+* [Architecturally significant requirements (wikipedia.org)](https://wikipedia.org/wiki/Architecturally_significant_requirements)
 
 Plantillas:
 
-  * [Documenting architecture decisions - Michael Nygard (thinkrelevance.com)](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
-
-  * [Markdown Architectural Decision Records (adr.github.io)](https://adr.github.io/madr/) - provided by the [adr GitHub organization](https://adr.github.io/)
-
-  * [Template for documenting architecture alternatives and decisions (stackoverflow.com)](http://stackoverflow.com/questions/7104735/template-for-documenting-architecture-alternatives-and-decisions)
+* [Documenting architecture decisions - Michael Nygard (thinkrelevance.com)](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
+* [Markdown Architectural Decision Records (adr.github.io)](https://adr.github.io/madr/) - provided by the [adr GitHub organization](https://adr.github.io/)
+* [Template for documenting architecture alternatives and decisions (stackoverflow.com)](http://stackoverflow.com/questions/7104735/template-for-documenting-architecture-alternatives-and-decisions)
 
 En profundidad:
 
-  * [ADMentor XML project (github.com)](https://github.com/IFS-HSR/ADMentor)
-
-  * [Architectural Decision Guidance across Projects: Problem Space Modeling, Decision Backlog Management and Cloud Computing Knowledge (ifs.hsr.ch)](https://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf)
-
-  * [The Decision View's Role in Software Architecture Practice (computer.org)](https://www.computer.org/csdl/mags/so/2009/02/mso2009020036-abs.html)
-
-  * [Documenting Software Architectures: Views and Beyond (resources.sei.cmu.edu)](http://resources.sei.cmu.edu/library/asset-view.cfm?assetID=30386)
-
-  * [Architecture Decisions: Demystifying Architecture (utdallas.edu)](https://www.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf)
-
-  * [ThoughtWorks Technology Radar: Lightweight Architecture Decision Records (thoughtworks.com)](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
+* [ADMentor XML project (github.com)](https://github.com/IFS-HSR/ADMentor)
+* [Architectural Decision Guidance across Projects: Problem Space Modeling, Decision Backlog Management and Cloud Computing Knowledge (ifs.hsr.ch)](https://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf)
+* [The Decision View's Role in Software Architecture Practice (computer.org)](https://www.computer.org/csdl/mags/so/2009/02/mso2009020036-abs.html)
+* [Documenting Software Architectures: Views and Beyond (resources.sei.cmu.edu)](http://resources.sei.cmu.edu/library/asset-view.cfm?assetID=30386)
+* [Architecture Decisions: Demystifying Architecture (utdallas.edu)](https://www.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf)
+* [ThoughtWorks Technology Radar: Lightweight Architecture Decision Records (thoughtworks.com)](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
