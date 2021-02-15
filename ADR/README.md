@@ -155,8 +155,8 @@ Un nuevo ADR puede reemplazar a un ADR anterior:
 
 Ejemplos recomendados
 
-* [Español](ADR/plantilla.md)
-* [Inglés](ADR/template.md)
+* [Español](plantilla.md)
+* [Inglés](template.md)
 
 Otros ejemplos de plantillas de ADRs en internet:
 

@@ -11,11 +11,11 @@
 * 15 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 17 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 22 __Evaluación [RFI I](RFI/RFI-I.md)__
-* 24 __Explicación [RFI II](RFI/RFI-II.md)__. Dockerizar replicador. *Trabajo Libre*
+* 24 __Explicación [RFI II](RFI/RFI-II.md)__. Dockerizar Replicador. *Trabajo Libre*
 
 ## Marzo
 
-* 1 APIs. REST. Balanceadores. Conceptos básicos Seguridad y Arquitectura
+* 1 [APIs (REST)](APIs.md) Balanceadores/API Gateways Conceptos básicos Seguridad y Arquitectura
 * 3 *Trabajo Libre*
 * 8 *Trabajo Libre*
 * 10 [Integración Continua I](Mejora-Continua.md)
