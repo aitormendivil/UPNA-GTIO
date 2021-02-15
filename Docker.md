@@ -2,6 +2,14 @@
 
 *Aitor Mendivil grau*
 
+Desventajas de las aplicaciones monoliticas:
+* Desde el punto de vista de la aplicacion:
+    * La replicacion supone una copia entera de la aplicacion aunque solo se este usando un componente especifico
+    * Las bases de datos relacionales no estan pensadas para ser replicadas
+* Desde el punto de vista del equipo de desarrollo:
+    * Cualquier cambio supone el despliegue entero de toda la aplicacion.
+    * Dificil de testear si tiene mucha dependencia interna.
+
 ## Why Docker?
 * Very Useful, you will realise it later on
 * Easy to use
