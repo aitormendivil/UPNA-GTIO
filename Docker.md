@@ -9,6 +9,11 @@ Desventajas de las aplicaciones monoliticas:
 * Desde el punto de vista del equipo de desarrollo:
     * Cualquier cambio supone el despliegue entero de toda la aplicacion.
     * Dificil de testear si tiene mucha dependencia interna.
+    
+Como se pueden resolver:
+* Desarrollar cada componente en un repositorio diferente
+* Es necesaria una matriz de compatibilidades para fijar con que versiones de los otros componentes el componente actual funciona.
+* Se crea un problema a la hora de desplegar nuevas versiones para las pruebas de integracion que necesitan de coordinacion adicional.
 
 ## Why Docker?
 * Very Useful, you will realise it later on
@@ -19,6 +24,11 @@ Desventajas de las aplicaciones monoliticas:
 ## Docker Containers
 A file system made of layers and a process
 
+Docker se aisla del sistema operativo 
+OS - FS- PID
+Permite definir una capa de lectura y otra de lectura gestionado por Docker y se lanzan los procesos.
+Tendriamos varias capas del FS en modo read /r y encima como ultima capa una de escritura /rw.
+
 ## Containers Vs Virtual Machines
 
 ##### Docker Pros
@@ -27,6 +37,11 @@ A file system made of layers and a process
 * Fast to deploy
 * Easy to share
 * Microservice architectures
+* No es necesario copiar todo el sistema de ficheros (fichero Dockerfile donde se define el sistema de ficheros y los ficheros)
+   * Se puede añadir al repositorio
+   * En cualquier sistema linux funciona igual
+   * Perfecto para equipos de desarrollo de microservicios con integracion continua.
+   * Mismo despliegue
 
 ##### Docker Cons
 * Only Linux
