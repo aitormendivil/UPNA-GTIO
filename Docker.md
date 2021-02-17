@@ -58,7 +58,11 @@ Tendriamos varias capas del FS en modo read /r y encima como ultima capa una de 
 * More complex (networking)
 
 ## Docker Basic Components
+Dockerfile 
+Dealer build
+Register
 
+Run (no apuntar)
 ### Docker Engine
 
 #### Installation
