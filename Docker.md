@@ -67,6 +67,12 @@ Run (no apuntar)
 
 #### Installation
 
+Antes de nada utiliza la opción:
+
+```sudo -s```
+
+Para no poner sudo antes de cada comando
+
 https://docs.docker.com/engine/install/ubuntu/
 
 ```shell
