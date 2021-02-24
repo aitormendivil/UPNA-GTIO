@@ -12,7 +12,7 @@ Así el sistema deberá estar adaptado tanto para integración continua como par
 con cargas de trabajo masivas en producción.
 
 Para ello el cliente espera propuestas basadas en sistemas distribuidos en microservicios usando
-Docker como tecnología para la creación y despliegue de esos Documentación en contenedores.
+Docker como tecnología para la creación y despliegue de esos microservicios en contenedores.
 
 
 ## Objetivo
@@ -24,14 +24,14 @@ se encuentra en la sección *Entrega*.
 
 La empresa proveedora deberá dar respuesta justificada a los siguientes puntos:
 
-* ¿Cuáles son los Documentación de los que consiste el sistema replicador?
-* ¿Cuál es la funcionalidad de cada uno de los Documentación?
+* ¿Cuáles son los microservicios de los que consiste el sistema replicador?
+* ¿Cuál es la funcionalidad de cada uno de los microservicios?
 * ¿Cuál es la arquitectura de la solución?
-* ¿Cómo es la comunicación entre Documentación?
+* ¿Cómo es la comunicación entre microservicios?
 * ¿Cómo se despliega el sistema en un entorno de test local?
 * ¿Cómo se prueba la funcionalidad del sistema en un entorno de test local?
 * ¿Cómo se lleva a cabo la autenticación, autorización y auditoria del sistema?
-* ¿Por qué es escalable y elastica la solución?
+* ¿Por qué es escalable y elástica la solución?
 
 
 ## Respuestas a este RFI
@@ -43,8 +43,8 @@ La empresa proveedora deberá dar respuesta justificada a los siguientes puntos:
 
 * Cualquier otro aporte de interés en el ámbito de la mejora de la arquitectura del sistema
 será bienvenida y considerado para una mayor puntuación en la evaluación
-* Solo se valorarán arquitecturas basadas en Documentación
-* Solo se valorarán Documentación basados en Docker como sistema de contenedores
+* Solo se valorarán arquitecturas basadas en microservicios
+* Solo se valorarán microservicios basados en Docker como sistema de contenedores
 * Durante la presentación se espera una demostración del sistema funcionando
 
 ## Entrega
@@ -60,7 +60,7 @@ horario habitual de la asignatura
 
 | Tema                                         | Puntuación |
 | -------------                                |       ---: |
-| Dockerfiles                                          | 5  |
+| Dockerfiles                                          | 5 |
 | Docker Compose files                                 | 10 |
 | Documentación código/ejecución                       | 5  |
 | Documentación Arquitectura                           | 5  |
