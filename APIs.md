@@ -291,30 +291,20 @@ La documentación de Postman es muy ampllia y está muy bien desarrollada. Se pu
 
 Enlace a la documentación: https://learning.postman.com/docs/postman/sending-api-requests/requests/
 
-## Ejercicios
+**Ejercicios Opcionales**
 
-### 1.
+> 1. Instalación de las herramientas Flask y Postman (y curl de forma optativa)
 
-Instalación de las herramientas Flask y Postman (y curl de forma optativa)
-
-### 2.
-
-Creación de una API en Python con Flask que gestione usuarios y películas (CRUD)
+> 2. Creación de una API en Python con Flask que gestione usuarios y películas (CRUD)
 * No es necesario utilizar una base de datos. Con el uso de diccionarios y listas de Python es suficiente para guardar datos.
 * La API debe cumplir los principios `REST` mencionados anteriormente
 * Un usuario activo puede alquilar películas, desde la API es importante poder ver las películas que tiene alquiladas en el momento actual como las películas que ha alquilado en el pasado.
 * Un usuario suspendido no puede alquilar películas. Pero sí se debe poder consultar su estado
 
-### 3.
-
-Repasa la documentación básica de Postman.
+> 3. Repasa la documentación básica de Postman.
 https://learning.postman.com/docs/postman/launching-postman/sending-the-first-request/
 
-### 4.
-
-Crear una colección de peticiones/*requests* en Postman con los test apropiados de forma que comprueben que la API funciona correctamente
-
-Es recomendable generar una colección con todas las peticiones (cada una debe tener el test apropiado en la pestaña test) para luego usar el *Runner*
+> 4. Crear una colección de peticiones/*requests* en Postman con los test apropiados de forma que comprueben que la API funciona correctamente. Es recomendable generar una colección con todas las peticiones (cada una debe tener el test apropiado en la pestaña test) para luego usar el *Runner*
 
 #### Ejemplo de test:
 
@@ -329,3 +319,7 @@ pm.test("Status code is 200", function () {
 * Introducción a los scripts en Postman: https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/
 * Postman Sandbox: https://learning.getpostman.com/docs/postman/scripts/postman_sandbox/
 * Postman Sandbox API: https://learning.getpostman.com/docs/postman/scripts/postman_sandbox_api_reference/
+
+**Ejercicio**
+
+> Implementar una API REST para que un cliente externo a nuestro SaaS pueda comunicarse con el replicador. 

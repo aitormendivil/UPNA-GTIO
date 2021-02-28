@@ -15,14 +15,14 @@
 
 ## Marzo
 
-* 1 [APIs (REST)](APIs.md) Balanceadores/API Gateways Conceptos básicos Seguridad y Arquitectura
+* 1 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
 * 3 *Trabajo Libre*
 * 8 *Trabajo Libre*
 * 10 [Integración Continua I](Mejora-Continua.md)
 * 11 [Integración Continua II](Mejora-Continua.md)
 * 15 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 17 __Explicación [RFI III](RFI/RFI-III.md)__. *Trabajo Libre*
-* 22 CPD VS Cloud
+* 22 CPD VS Cloud. Arquitecturas de servicios en la nube.
 * 24 IaaS. PaaS. SaaS. AWS I
 * 29 AWS II. Despliegue de servicio en AWS.
 * 31 IaaC. DevOps. Automatización
