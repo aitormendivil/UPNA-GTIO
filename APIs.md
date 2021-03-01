@@ -24,9 +24,17 @@
 
 *Application Program interface*. Es una interfaz de comunicación a un componente de software (una serie de funciones por ejemplo) que define como se debe usar ese componente. De forma más práctica podemos verlo como una serie de métodos de un programa pensados para ser ejecutados desde otro programa.
 
-A menudo las APIs se refieren por lo general A Web APIs, que permiten la comunicación con servicios web a través del protocolo `HTTP`.
+A menudo las APIs se refieren por lo general A Web APIs, que permiten la comunicación con servicios web a través del protocolo `HTTP`, `HTTPS` (para conexiones seguras) .
 
 En esta asignatura con el término API, nos estaremos refiriendo a Web APIs. Las Web APIs, siguiendo una estructura básica de cliente servidor, se encuentran en la parte servidora, de forma que el código cliente (*frontend* si se ejecuta en un terminal de usuario o *middleware* si se ejecuta en un servidor *on-premise* de un cliente) va a poder llamar a métodos del servidor.
+
+Vamos a usar los verbos de HTTP (GET, POST, PUT, DELETE, PATCH, -) para usar CRUD (OBTENER, CREAR, ACTUALIZAR, BORRAR , - , -), para el publicador y para el consumidor.
+
+Es necesario versionar la api "http://algunaapi/api/v2" la ultima parte se encarga el servicio *añadir servicio*.
+
+Crear un objeto conductor {"id" : "Pablo", "apellido": "Cabras"} formato JSON por ejemplo. "Añadir errores de HTTP: 200(control),400(peticion),500(Servidor)"
+
+Si queremos hacer un PUT es necesario incluir la id para saber que recurso estamos actualizando.
 
 A diferencia del modelo tradicional de programación web (por ejemplo en `PHP`), que ejecuta el código y renderiza las vistas en la parte servidora, mediante el uso de Web APIs se puede separar totalmente la ejecución y renderización de la vista (código *frontend*) respecto al código de servidor. Para ello se utilizan distintas estructuras de datos (`JSON`, `XML`...) para transmitir la información necesaria sobre el protocolo `HTTP`.
 
@@ -164,7 +172,7 @@ Ejemplo:
 
 ![url](./img/apis/flask.png)
 
-### Flask
+### Flask (servicio extra que hace de interfaz con nuestro replicador)
 
 Flask es un Framework de Python con el que se pueden crear APIs de una forma rápida y sencilla.
 
@@ -262,7 +270,7 @@ $ curl -X POST -d '{ "user": "prueba"}' "https://localhost:5000/user" -H "accept
 
 Existen servicios online como HTTPBin https://httpbin.org muy útiles para pruebas.
 
-## Postman
+## Postman (suite para trabajar con apis)
 
 Postman es la herramienta gráfica definitiva para trabajar con APIs. Puedes obtenerlo en el siguiente enlace. https://www.getpostman.com/downloads
 
@@ -285,7 +293,7 @@ Postman es la herramienta gráfica definitiva para trabajar con APIs. Puedes obt
 
 ![url](./img/apis/postman.png)
 
-### Enlaces útiles de la documentación
+### Enlaces útiles de la documentación (hay que implementar una api por delante del replicador)
 
 La documentación de Postman es muy ampllia y está muy bien desarrollada. Se puede aprender mucho sobre como funciona HTTP siguiendo esta documentación.
 
