@@ -330,24 +330,24 @@ pm.test("Status code is 200", function () {
 
 **Ejercicio**
 
-> Implementar una API REST para que un cliente externo a nuestro SaaS pueda comunicarse con el replicador.
-> (no es necesario)MULTITENANT (separar la BBDD en varios eschemas) Transformar peticiones
-> Para diferenciar los clientes es necesario autenticarlos
-> Es necesario autorizar el acceso a distintos clientes 
-> LOG a nivel de acceso y LOGS de lo que hace cada servicio. LOGS de negocio(metricas del sistema) o LOGS de operativa(nº peticiones)
-> Triple A: Autenticacion, autorizacion, y Auditoria.(necesario incluir en el RFI II)
-> Homogenizar los endpoints(versionarlos tambien). Cosas similares para los usuarios finales.
-> 
-Ademas de la api añadir una api gateway(no tiene interfaz, solucion open source KONGA-CONGA-KONG?)
-Autenticacion, autorizacion y Auditoria. Dockerlogs id contenedor
-Todo se guardara en una base de datos Posgress(fichero definicion)
-Recomendacion: Usar Docker, Y Docker para la base de datos.
+Implementar una API REST para que un cliente externo a nuestro SaaS pueda comunicarse con el replicador.
+(no es necesario)MULTITENANT (separar la BBDD en varios eschemas) Transformar peticiones
+Para diferenciar los clientes es necesario autenticarlos
+Es necesario autorizar el acceso a distintos clientes 
+LOG a nivel de acceso y LOGS de lo que hace cada servicio. LOGS de negocio(metricas del sistema) o LOGS de operativa(nº peticiones)
+Triple A: Autenticacion, autorizacion, y Auditoria.(necesario incluir en el RFI II)
+Homogenizar los endpoints(versionarlos tambien). Cosas similares para los usuarios finales.
+ 
+* Ademas de la api añadir una api gateway(no tiene interfaz, solucion open source KONGA-CONGA-KONG?)
+* Autenticacion, autorizacion y Auditoria. Dockerlogs id contenedor
+* Todo se guardara en una base de datos Posgress(fichero definicion)
+* Recomendacion: Usar Docker, Y Docker para la base de datos.
 
 **Organizacion sugerida:**
-Definicion API
-KONG y BBDD y explicacion
-Se monta la api al replicador
-Se activa pluggin de authenticaicon
-Se activa plugin de los logs
+* Definicion API
+* KONG y BBDD y explicacion
+* Se monta la api al replicador
+* Se activa pluggin de authenticaicon
+* Se activa plugin de los logs
 
 Semana que viene una demo de KONG en sistema local.
