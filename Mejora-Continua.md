@@ -31,24 +31,23 @@ Todas estas desventajas se pueden denominar *Integration Hell*
 
 ## Implicaciones
 
-### Desarrollo de sistemas de test automáticos.
+### Desarrollo de sistemas de test automáticos
 
 Todos los desarrolladores nos equivocamos, cometemos muchos errores que en un gran porcentaje llegan a producción, por lo que es importante darnos cuenta del error lo antes posibles,
 para lo que es importante tener una buena base de test automatizados, tanto unitarios como de integración. Es importante que siempre funcione el caso bueno o *Happy Path* por ejemplo mediante el uso de [smoke test](https://www.javiergarzas.com/2014/06/smoke-test-en-menos-de-10-min.html), pero no es suficiente con ello, los nuevos cambios no solo deben funcionar, sino que deben asegurar la retrocompatibilidad, por ejemplo, en el caso de que se esté modificando una API REST, esto se podría conseguir comprobando las claves y los tipos de los campos en los JSON devueltos por la API.
 
 La metodología de software [TDD](https://www.paradigmadigital.com/dev/tdd-como-metodologia-de-diseno-de-software/) encaja muy bien con un enfoque de integración continua orientado a la calidad del software.
 
-### Compilación y generación de artefactos automática
+### Compilación y generación de artefactos de forma atuomática
 
 Al igual que ocurría con los test, una vez realizados es necesario generar o artefactos entregables, o todos aquellos componentes que sirvan para test posteriores, como pueden ser de integración con otros sistemas etc... Para ello en los repositorios se suele incluir un fichero ejecutable, por ejemplo un *build.sh* un *Makefile* o incluso un *Dockerfile* donde se encuentran las instrucciones para la compilación y generación de artefactos. Los *Makefile* a menudo también incluyen directivas para poder pasar los test, del tipo: `make build test`
-
 
 ### Test de seguridad automáticos.
 
 Para que el desarrollo sea lo más seguro posible es necesario realizar escáneres de seguridad tanto
 del código como de los artefactos complilados durante la integración continua. De está forma se podrían detectar librerías
 
-### Pull Requests o Merge Requests
+### Pull Requests o Merge Requests
 
 En el proceso de integración del código, es decir, cuando una funcionalidad realizada por un desarrollador en
 una rama del repositorio se quiere llevar a la rama *master* es conveniente realizar una *Pull Request*, es
