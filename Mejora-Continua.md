@@ -34,20 +34,21 @@ Todas estas desventajas se pueden denominar *Integration Hell*
 ### Desarrollo de sistemas de test automáticos.
 
 Todos los desarrolladores nos equivocamos, cometemos muchos errores que en un gran porcentaje llegan a producción, por lo que es importante darnos cuenta del error lo antes posibles,
-para lo que es importante tener una buena base de test automatizados, tanto unitarios como de integración. Es importante que siempre funcione el caso bueno o *Happy Path* por ejemplo mediante el uso de *[smoke test](https://www.javiergarzas.com/2014/06/smoke-test-en-menos-de-10-min.html)*, pero no es suficiente con ello, los nuevos cambios no solo deben funcionar, sino que deben asegurar la retrocompatibilidad, por ejemplo, en el caso de que se esté modificando una API REST, esto se podría conseguir comprobando las claves y los tipos de los campos en los JSON devueltos por la API.
+para lo que es importante tener una buena base de test automatizados, tanto unitarios como de integración. Es importante que siempre funcione el caso bueno o *Happy Path* por ejemplo mediante el uso de [smoke test](https://www.javiergarzas.com/2014/06/smoke-test-en-menos-de-10-min.html), pero no es suficiente con ello, los nuevos cambios no solo deben funcionar, sino que deben asegurar la retrocompatibilidad, por ejemplo, en el caso de que se esté modificando una API REST, esto se podría conseguir comprobando las claves y los tipos de los campos en los JSON devueltos por la API.
 
-La metodología de software *[TDD](https://www.paradigmadigital.com/dev/tdd-como-metodologia-de-diseno-de-software/)* encaja muy bien con un enfoque de integración continua orientado a la calidad del software.
+La metodología de software [TDD](https://www.paradigmadigital.com/dev/tdd-como-metodologia-de-diseno-de-software/) encaja muy bien con un enfoque de integración continua orientado a la calidad del software.
 
 ### Compilación y generación de artefactos automática
 
 Al igual que ocurría con los test, una vez realizados es necesario generar o artefactos entregables, o todos aquellos componentes que sirvan para test posteriores, como pueden ser de integración con otros sistemas etc... Para ello en los repositorios se suele incluir un fichero ejecutable, por ejemplo un *build.sh* un *Makefile* o incluso un *Dockerfile* donde se encuentran las instrucciones para la compilación y generación de artefactos. Los *Makefile* a menudo también incluyen directivas para poder pasar los test, del tipo: `make build test`
 
-### Test de seguridad automáticos.
+
+### Test de seguridad automáticos.
 
 Para que el desarrollo sea lo más seguro posible es necesario realizar escáneres de seguridad tanto
 del código como de los artefactos complilados durante la integración continua. De está forma se podrían detectar librerías
 
-### *Pull Requests* o *Merge Requests*
+### Pull Requests o Merge Requests
 
 En el proceso de integración del código, es decir, cuando una funcionalidad realizada por un desarrollador en
 una rama del repositorio se quiere llevar a la rama *master* es conveniente realizar una *Pull Request*, es
@@ -67,7 +68,7 @@ después generar un artefacto, pasar los test, incluyendo un análisis de seguri
 
 ![image](https://cloud.google.com/solutions/continuous-integration/images/diagram_2x.png?hl=es)
 
-## Ventajas I
+## Ventajas
 
 ### Mejora la eficiencia y productividad durante el desarrollo
 
@@ -144,9 +145,9 @@ https://cd.foundation/about/
 > The Continuous Delivery Foundation (CDF) serves as the vendor-neutral home of many of the fastest-growing projects for continuous integration/continuous delivery (CI/CD). It fosters vendor-neutral collaboration between the industry’s top developers, end users, and vendors to further CI/CD best practices and industry specifications. Its mission is to grow and sustain projects that are part of the broad and growing continuous delivery ecosystem.
 
 ---
-# Nuevos Roles Profesionales: *CI/CD Engineers & DevOps* I
+# Nuevos Roles Profesionales: CI/CD Engineers & DevOps
 
-## CI/CD Engineers
+## CI/CD Engineers
 
 #### El objetivo: reducir los ciclos de desarrollo de software y de entrega de software de años o meses a horas y minutos
 
@@ -158,9 +159,9 @@ de los procesos
 * Mantener y gestionar las herramientas, relacionadas con CI/CD
 * Automatización de procesos
 
-## CI/CD Engineers
+## CI/CD Engineers
 
-##### Habilidades técnicas:
+### Habilidades técnicas:
 
 * Desarrollo con lenguajes de scripting
 * Interpretar y desarrollar código fuente
@@ -171,7 +172,7 @@ de los procesos
 * Familiarizado con herramientas de test y análisis de seguridad
 * Familiarizado con herramientas de monitorización
 
-## Devops
+## Devops
 
 Muy relacionados también con los flujos de CI/CD debido a su conocimiento de operaciones, el DevOps
 es un rol más versátil, que conoce la gestión de la producción, y que con sus conocimientos
@@ -201,11 +202,11 @@ como de mantenimiento, en la integración con otras herramientas de la organizac
 
 ## Ejemplos:
 
-##### Control de versiones
+##### Control de versiones
 
-* Git, Gitlab, Github, Bitbucket, AWS
+* Git, Gitlab, Github, Bitbucket, aws
 
-##### Pipelines
+##### Pipelines
 
 * Gitlab, Jenkins, AWS
 
