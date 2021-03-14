@@ -159,9 +159,7 @@ de los procesos
 * Mantener y gestionar las herramientas, relacionadas con CI/CD
 * Automatización de procesos
 
-## CI/CD Engineers
-
-### Habilidades técnicas:
+##### Habilidades técnicas:
 
 * Desarrollo con lenguajes de scripting
 * Interpretar y desarrollar código fuente
