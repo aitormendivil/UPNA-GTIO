@@ -18,13 +18,12 @@
 * 1 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
 * 3 *Trabajo Libre*
 * 8 *Trabajo Libre*
-* 10 [Integración Continua I](Mejora-Continua.md)
-* 11 [Integración Continua II](Mejora-Continua.md)
-* 15 __Evaluación [RFI II](RFI/RFI-II.md)__
-* 17 __Explicación [RFI III](RFI/RFI-III.md)__. *Trabajo Libre*
-* 22 CPD VS Cloud. Arquitecturas de servicios en la nube.
-* 24 IaaS. PaaS. SaaS. AWS I
-* 29 AWS II. Despliegue de servicio en AWS.
+* 10 *Trabajo Libre*
+* 15 [Integración Continua](Mejora-Continua.md)
+* 17 __Evaluación [RFI II](RFI/RFI-II.md)__
+* 22 __Explicación [RFI III](RFI/RFI-III.md)__. CPD VS Cloud. Arquitecturas de servicios en la nube
+* 24 IaaS. PaaS. SaaS. AWS. Despliegue de servicio en AWS
+* 29 *Trabajo Libre*
 * 31 IaaC. DevOps. Automatización
 
 
