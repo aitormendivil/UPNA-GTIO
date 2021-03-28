@@ -45,7 +45,7 @@ SaaS ofrece una solución de software integral que se adquiere de un proveedor d
 
 ![Cloud Computing](./img/cloud-computing.png)
 
-## Modelos de implementación
+## Modelos de implementación
 
 ### 100% Cloud
 
