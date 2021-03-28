@@ -23,7 +23,7 @@
 * 17 CPD VS Cloud
 * 22  __Evaluación [RFI II](RFI/RFI-II.md)__  
 * 24 *Trabajo Libre*
-* 29 __Explicación [RFI III](RFI/RFI-III.md)__  IaaS. PaaS. SaaS. Introducción a AWS. Arquitecturas de servicios en la nube.
+* 29 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). Introducción a AWS. Arquitecturas de servicios en la nube.
 * 31 Despliegue de servicio en AWS. IaaC. DevOps. Automatización.
 
 ## Abril
