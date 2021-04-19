@@ -25,8 +25,8 @@ SLAS(Rendimiento / Escalabilidad)
 -Obtener metricas del panel de metricas
 -Cuanto es necesario facturar, etc.
 
-Sistema
--------------------------------------
+Sistema (Logs de AWS)
+--------------------------------------------------------------------------
             S1 ---> | S2 | (logs maquina)
           /                (Metricas, cpu)
 (Acceso) B1   
@@ -34,7 +34,16 @@ Sistema
             S3 ---> S4 (Logs o metricas de servicio que pongamos nosotros)
              |
            BBDD1 (logs)
--------------------------------------
+--------------------------------------------------------------------------
 
 Logs en Linux por defecto /var/log
 
+El balanceador es el punto de obtencion de informacion mas barato y rapido(SLA, acceso).
+
+Aquitectura generica:
+Tenemos una maquina y un servicio pùblico (añadimos un pequeño servicio que recopila esos logs y los envia a un destino)
+Vamos a utilizar una BBDD no SQL como Elastic y un Dashboard llamado Kibana.
+LOGSTASH, Series temporales como Prometheus (Kibana no puede conectarse, pero Grafana si)
+
+Aquitectura basada en peticiones sincronas.
+Otra opcion: Preductores, consumidores mediante un sistema de publicadores, subscriptores.kafka
