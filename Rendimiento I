@@ -1,0 +1,40 @@
+Observabilidad:
+- Cambios
+- Estado Servicio/sitstema
+- Uso de recursos
+- Monitorizacion
+- Logs/Metricas
+
+SLAS(Rendimiento / Escalabilidad)
+                |
+            ($costes)
+                |
+       (Precios/Facturacion)
+                |
+           (Seguridad)
+                |
+             (CI/CD)
+       
+     
+ Observabilidad
+ ___________    _________
+| Dato      |  | Dato    |
+| Operacion |  | Negocio |
+-------------  -----------
+
+-Obtener metricas del panel de metricas
+-Cuanto es necesario facturar, etc.
+
+Sistema
+-------------------------------------
+            S1 ---> | S2 | (logs maquina)
+          /                (Metricas, cpu)
+(Acceso) B1   
+          \ 
+            S3 ---> S4 (Logs o metricas de servicio que pongamos nosotros)
+             |
+           BBDD1 (logs)
+-------------------------------------
+
+Logs en Linux por defecto /var/log
+
