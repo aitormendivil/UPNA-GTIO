@@ -20,20 +20,19 @@
 * 8 *Trabajo Libre*
 * 10 *Trabajo Libre*
 * 15 [Integración Continua](Mejora-Continua.md)
-* 17 __Evaluación [RFI II](RFI/RFI-II.md)__
-* 22 __Explicación [RFI III](RFI/RFI-III.md)__. CPD VS Cloud. Arquitecturas de servicios en la nube
-* 24 IaaS. PaaS. SaaS. AWS. Despliegue de servicio en AWS
-* 29 *Trabajo Libre*
-* 31 IaaC. DevOps. Automatización
-
+* 17 CPD VS Cloud
+* 22  __Evaluación [RFI II](RFI/RFI-II.md)__  
+* 24 *Trabajo Libre*
+* 29 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). Introducción a AWS. Arquitecturas de servicios en la nube.
+* 31 Despliegue de servicio en AWS. IaaC. DevOps. Automatización.
 
 ## Abril
 
 * 12 *Trabajo Libre*
 * 14 *Trabajo Libre*
-* 19 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 21 __Explicación [RFP](RFP/RFP.md)__. Rendimiento I. KPIs.
-* 28 Rendimiento II. Elastic, Kibana
+* 19 Rendimiento I. KPIs. *Trabajo Libre*
+* 21 __Evaluación [RFI III](RFI/RFI-III.md)__
+* 28 __Explicación [RFP](RFP/RFP.md)__. Rendimiento II. Elastic, Kibana
 
 ## Mayo
 
