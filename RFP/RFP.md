@@ -50,3 +50,25 @@ Muchos Sads esta desaconsejado(2 maquinas de 4gb 120 sads?)
 
 Puedes tener varias maquinas que manden logs al mismo indice. 100 indice con 1 sad por indice todo ok.
 
+Juego de ver que es lo que esta bien o mal.
+
+No pasarse del 70% de memoria de la RAM en elastic search. El problema es que esta hecho sobre java y el garabage colector es una kk
+
+Es necesario hacer un post a la api de elastic y te crea el indice con un primario y una replica.
+
+Hay un elastic gestionado en AWS pero es encesario pagarlo(caro). Se puede usar una T2 medium o small y gestionarlo nosotros.
+
+Aunque se pierdan los datos los importante es que llegue.
+
+Es necesario instalar metricbeat y cambiar los parametros necesarios que nos interesa hacer log de eso.
+
+Lo siguiente es consultar esos datos.
+Una tercera herramineta, kibana, grafana, que conectarlo a elastic search pàra hacer una dashboard y ver esos datos.
+
+Tirar pòr lo sencillo.
+
+Un par insatalar firebeat en una maquina y ver que se guardan los datos y ver si aparecen en el dashboard como prueba de concepto y lo añadimos al despliegue
+en AWS.
+
+[Demo de Aitor]
+
