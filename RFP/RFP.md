@@ -152,4 +152,6 @@ GET index-test/_search
    }
  }
  
+ Importante el campo de Time bien. (iconito calendario)
  
+Tasa de metricbeat
