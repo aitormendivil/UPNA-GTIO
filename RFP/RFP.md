@@ -72,3 +72,46 @@ en AWS.
 
 [Demo de Aitor]
 
+Kiabana sin postman o termnal.
+
+vemos los indices y (_cat/indices) para ver los indices
+El rotado lo gestiona firebeat.
+
+GET _cat/shards para ver los shards ( con p primario)
+wildcard *
+ecs-7.4.2-2021.04.*
+
+GET _cluster/health (nodos de datos o nodos master)
+Ideal 3 nodos pequeños como master pero no hay que volverse loco.
+
+AL ser de AWS hay ciertas peticiones que no te deja hacer ( activar snapshots o las restauraciones)
+
+GET _cluster/state te dice los mappings
+
+GET ecs-7.4.2-2021.04.12/_settings para ver las settings y para los mappings parecido (_mapping)
+mappings generados por nosotros o inferidos.
+
+Es necesario indicerle un tipo de documento dentro del ???
+
+Crear un indice
+
+PUT /index-test
+
+GET _cat/indices/index-test 
+GET /index-test/_settings
+
+DELETE /index-test
+
+PUT /index-test {
+ "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 1
+    }
+  },
+  "mappings": {
+    "properties": {
+      "user": { "type": "text" }
+     }
+  }
+}
