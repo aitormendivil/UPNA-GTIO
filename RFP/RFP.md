@@ -115,3 +115,41 @@ PUT /index-test {
      }
   }
 }
+
+No se puede cambiar el numero de shards primarios, pero los settings si, es necesario reindexar los indices si se quiere cambiar el numero de shards primarios.
+
+POST index-test/_doc/
+{
+ "user": "eduard"
+}
+
+GET _cat/indices/index-test  //obtener numero de documentos.
+
+Sacar las headers: shoulders toes knees
+GET _cat/indices/index-test?v=true
+
+Buscar: ( nos nos interesa buscar de este modo)
+
+GET index-test/_search
+{ 
+  "query":{
+    "term":{
+      "user": "eduard"
+     }
+   }
+ }
+ 
+ Firebeat te gestiona todo esto automaticamnete.
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Devolver todos.
+
+GET index-test/_search
+{ 
+  "query":{
+    "match_all":{}
+   }
+ }
+ 
+ 
