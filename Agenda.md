@@ -32,17 +32,17 @@
 * 14 *Trabajo Libre*
 * 19 Rendimiento I. KPIs. *Trabajo Libre*
 * 21 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 28 __Explicación [RFP](RFP/RFP.md)__. Rendimiento II. Elastic, Kibana
+* 28 __Explicación [RFP](RFP/RFP.md)__. Rendimiento II. Agentes beats, Elastic, Kibana
 
 ## Mayo
 
 * 3 *Trabajo Libre*. Práctica Rendimiento
-* 5 APM y métricas al replicador
-* 10 pruebas de carga
+* 5 IaaC II. Terraform..
+* 10 Pruebas de carga. APM y métricas replicador.
 * 12 *Trabajo Libre*
 * 17 *Trabajo Libre*
 * 19 *Trabajo Libre*
-* 24 __Evaluación [RFP](RFP/RFP.md) I__
-* 26 __Evaluación [RFP](RFP/RFP.md) II__
+* 24 __Evaluación [RFP](RFP/RFP.md)__
+* 26 Examen teórico
 
 ## Junio
