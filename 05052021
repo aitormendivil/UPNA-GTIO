@@ -162,3 +162,29 @@ resource "aws_instance" "foo" {
     cpu_credits = "unlimited"
   }
 }
+
+una maquina y un balanceador se inician en una subnet
+
+
+terraform primero ejecuta el recurso (provider) y luego le inyecta el id una vez creado en la vpc.
+
+Primer paso(no obligatorio) ayuda a tener la infraestructura
+  Bajar terraform.
+  Crear proyevto en repositorio
+  configuyrar aWSCLI
+  crear tf
+  levantar una instancia en s3
+  y ver que funciona y lo que no
+
+sobre la VPc se montan subnets y sobre esos subnets maquinas.
+
+Lo ideal es seguir la arquitectura ya establecida.
+necesitas crear 3 subents se copia y se pega 3 veces con distintos nombres.
++ tabla de rutas *(obligatorio)  para crear las subnets
+
+subnets publicas/privadas(no se pueden acceder desde internet)
+
+hay una vpc por defecto ya hecha en AWS
+
+si manejas varias zonas de disponibilidad se asingan diferentes maquinas a las distintas subnets en una zona de disponibilidad u otra.
+
