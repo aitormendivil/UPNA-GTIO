@@ -186,5 +186,10 @@ subnets publicas/privadas(no se pueden acceder desde internet)
 
 hay una vpc por defecto ya hecha en AWS
 
-si manejas varias zonas de disponibilidad se asingan diferentes maquinas a las distintas subnets en una zona de disponibilidad u otra.
+por que interesa usar vpc? si manejas varias zonas de disponibilidad se asingan diferentes maquinas a las distintas subnets en una zona de disponibilidad u otra.
+
+*nos va a subir un modulo
+
+variables se crean con 'variable "xxx" {}' , y output como salida (main.tf) tanto para publicas como privadas
+
 
