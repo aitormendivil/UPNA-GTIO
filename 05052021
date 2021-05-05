@@ -1,0 +1,39 @@
+En la AWS
+Terraform es una interfaz
+Tenemos el AWS CLI ya, es el que hace las llamadas
+
+Es necesario tener unas credenciales validas con permisos adecuados, lo mejor es dar los permisos de administrador total
+
+Para hilar fino es necesario crear esas politicas en IAAC
+
+Generar los token de sesion para AWS educate
+
+Vamos a tener un client secret y un token de sesion.
+
+Pues el AWS CLI bien configurado junto con el binario de terraform ya nos permite tener algo funcionando.
+
+Terraform tiene su propio lenguaje tipo JSON, tiene funciones, es un lenguaje propo y tiene similitudes con otros lenguajes como YAML
+
+Tiene extensiones .tf . Dentro del directorio puedes tener uno o varios ficheros ya que terraform se encarga de gestionar las dependencias.
+
+Para la configuracion del provider por ejemplo podemos hacer un pequeño ficherito, para las instancias otro pero siempre dentro del mismo directorio por ejemplo en
+el directorio /projects (repositorio en gitlab por ejemplo) y empezamos a trabajar
+
+Como funciona terraform en modos logico, coge los ficheros y los concatena y despues busca un proveedor, para conectarse a un servicio. Sin embargo vamos a utilizar el de AWS.
+
+Si queremos lanzar una maquina, lo que hace terraform, se coencta a traves de AWS Cli. Si Amazon permite tener dos maquinas con el mismo nombre falla si se intenta ejecutar de nuevo. 
+Las maquinas no tienen nombres pero si tags.
+
+Primer paso, una "inicializacion" y terraform hace su propio backend.
+Asi si Unai ha levantado la maquina y la quiere volver a desplegar terraform le dice que ya esta levantada.
+Sin el backend nos puede dar el error al intentar levantar la misma maquina dos veces.
+
+Lo ideal es tener un backend compartido para terraform.
+
+Si unai le dice a terraform que ese es su backend en S3, si iulen intenta levantar la misma maquina de unai, terraform le informara de que ya esta levantada la maquina.
+
+Caso peor. Lanzar desde la maquina local y se borra el proyecto. Se pueden crear recursos en la nube con la que no tendras control. Tienes que ir uno a uno a destruir esos recursos.
+
+Los recursos creados se quedan en la backend.
+
+No se consulta en la nube porque terraform no trabaja asi.
