@@ -37,3 +37,24 @@ Caso peor. Lanzar desde la maquina local y se borra el proyecto. Se pueden crear
 Los recursos creados se quedan en la backend.
 
 No se consulta en la nube porque terraform no trabaja asi.
+
+Tener en cuenta que lo mejor es tener un backend comaprtido o y lanzar los elementos con un tag que comiencen con tu nombre(seguido de otros nombres)
+
+Vamos a ver una demo en S3
+
+Con init iniciamos ese backend
+Siguiente paso (chulo) es el PLAN, dice los cambios que aplica sobre esa infraestructura, asi sabras si la salida de ese plan concuerda con lo que estas esperando, que se crea, que se elimina, y la configuracion.
+Por ultimo tras validar los cambios se lanzan con el Apply.
+Si queremos destruir usamos el comando Destroy.
+
+*demo*
+
+De primeras el provider configurado.
+Primero un fichero tf (provder.tf) de AWS configurado + token de configuracion (junto con el secret key) token opcional de sesion(access key)
+
+provider "aws" {
+  region =
+  access_key = "xxxxxx"
+  secret_key = "xxxxxx"
+ }
+
