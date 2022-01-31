@@ -4,7 +4,7 @@
 
 ## Horario
 
-Lunes y Miércoles de 17.00 a 19.00
+Lunes y Miércoles de 19:00 a 21:00. Aula ISM
 
 ## Evaluación
 
@@ -21,7 +21,7 @@ E-mail: `aitor.gonzalezdemendivil@unavarra.es`
 [Página personal](https://www.unavarra.es/pdi?uid=811566)
 
 #### Tutorías:
-* Lunes y miércoles de 19.00 a 20.00 (es necesario cita previa)
+* Lunes y miércoles de 18:00 a 19:00 (por favor, avisad con anterioridad)
 * En cualquier momento por correo interno de MiAulario o e-mail.
 
 ## Metodología
@@ -30,13 +30,10 @@ E-mail: `aitor.gonzalezdemendivil@unavarra.es`
 trabajo libre.
 * La planificación de la asignatura está pensada para realizarse con el mínimo trabajo
 fuera del aula posible.
-* Será necesario el código del cats & dogs implementado durante la asignatura
-de Sistemas Distribuidos.
 
 ## Organización
 
 * Los alumnos se organizarán en grupos de 3-5 personas
-* Pueden ser los mismos grupos que en la asignatura de Sistemas Distribuidos
 * Una de las personas del grupo asumirá el rol de jefe (se podrá cambiar después de cada entrega)
 * Está terminantemente prohibida la copia entre equipos
 
@@ -45,12 +42,11 @@ de Sistemas Distribuidos.
 * Equipos ISM
 * Equipos Propios
 * Laboratorio Virtual (Proxmox)
-* Laboratorio Cloud (En caso de que se pueda cumplir con la normativa anti Covid)
 
 ## Objetivo del Curso
 
-*Ganar la venta de un sistema concurrente (que incluya un plan de sistemas y de
-  viabilidad a largo plazo) con fecha límite 23 de mayo a la empresa representada por el profesor.
+* Ganar la venta de la app Cats & Dogs (que incluya un plan de sistemas y de
+  viabilidad a largo plazo) con fecha límite 25 de mayo a la empresa representada por el profesor.
   El responsable será el jefe del equipo en ese momento.*
 
 #### Detalles aclaratorios
@@ -61,9 +57,8 @@ de Sistemas Distribuidos.
 ___
 **Ejercicios**
 
-> Establecer los grupos y los jefes de equipo. En caso de que los grupos sean
-diferentes a los existentes en la asignatura de Sistemas Distribuidos decidir el código del cats & dogs a utilizar
+> Establecer los grupos y los jefes de equipo.
 
-> Pensar en los procesos que dan valor a una organización, a un equipo y a un producto tecnológico
+> Pensar en los procesos que dan valor a un equipo y a un producto tecnológico
 
-> Por equipos. Elegid un software conocido y que os guste. Listad las tecnologías y procesos que creéis que están involucradas en su desarrollo.  
+> Por equipos. Elegid un software conocido y que os guste. Listad las tecnologías y procesos técnicos que creéis que están involucradas en su desarrollo.  
