@@ -39,11 +39,9 @@ será bienvenido y considerado para una mayor puntuación en la evaluación
 
 ## Entrega
 
-* La fecha límite para la entrega del RFI será el: *22 de febrero de 2021*
-* Se deberá realizar una presentación el mismo día *22 de febrero de 2021* en el
+* La fecha límite para la entrega del RFI será el: *21 de febrero de 2021*
+* Se deberá realizar una presentación el mismo día *21 de febrero de 2021* en el
 horario habitual de la asignatura
-* La entrega será realizada mediante ficheros `.pdf` adjuntos a la tarea previamente
-abierta en MiAulario. **No será admitido cualquier otro tipo de fichero. No optando a 30 puntos de la nota final**
 * Se puede incluir toda la documentación que el proveedor considere necesaria
 * La tarea de MiAulario será previamente anunciada mediante anuncio en miAulario o e-mail.
 
