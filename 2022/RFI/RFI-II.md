@@ -49,8 +49,8 @@ será bienvenida y considerado para una mayor puntuación en la evaluación
 
 ## Entrega
 
-* La fecha límite para la entrega del RFI será el: *17 de marzo de 2021*
-* Se deberá realizar una presentación el mismo día *17 de marzo de 2021* en el
+* La fecha límite para la entrega del RFI será el: *23 de marzo de 2022*
+* Se deberá realizar una presentación el mismo día *23 de marzo de 2022* en el
 horario habitual de la asignatura
 * La entrega será realizada mediante ficheros `.pdf`, o ficheros `.zip` con el código o documentación necesarias. No se admiten enlaces a recursos externos al `.zip`.
 * Se puede incluir todo el código y documentación que el proveedor considere necesaria
@@ -70,4 +70,4 @@ horario habitual de la asignatura
 
 ## Modificaciones sobre este RFI
 
-El cliente se guarda el derecho a modificar este RFI en cualquier momento, siendo obligado su aviso mediante anuncio en miAulario o e-mail a partir del día 24 de febrero del 2021.
+El cliente se guarda el derecho a modificar este RFI en cualquier momento, siendo obligado su aviso mediante anuncio en miAulario o e-mail a partir del día 14 de marzo del 2022.
