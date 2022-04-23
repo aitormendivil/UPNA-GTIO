@@ -27,29 +27,29 @@
 * 21 CPD VS Cloud
 * 23 __Evaluación [RFI II](RFI/RFI-II.md)__  
 * 28 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). Introducción a AWS. Arquitecturas de servicios en la nube.
-* 30 Despliegue de un servicio en AWS usando ECS.
+* 30 *Trabajo Libre: Flujo CI automático*
 
 
-## Abril (WIP)
+## Abril
 
 * 4 IaaC - Terraform. DevOps. Automatización.
 * 6 *Trabajo Libre: Despliegue Cats & Dogs en AWS*
-* 11 *Trabajo Libre: Despliegue Cats & Dogs en AWS**
-* 25 Rendimiento I. KPIs. *Trabajo Libre*
-* 27
+* 11 *Trabajo Libre: Despliegue Cats & Dogs en AWS*
+* 25 Despliegue de un servicio en AWS usando ECS.
+* 27 *Trabajo Libre: Despliegue Cats & Dogs en AWS con Terraform*
 
-## Mayo (WIP)
+## Mayo
 
 * 2 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 4 __Explicación [RFP](RFP/RFP.md)__. Rendimiento II. Agentes beats, Elastic, Kibana
-* 9 *Trabajo Libre*. Práctica Rendimiento
+* 4 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
+* 9 *Trabajo Libre*. Rendimiento.
 * 11 Pruebas de carga. APM y métricas cats & dogs.
-* 16
-* 18
+* 16 *Trabajo Libre*. Rendimiento.
+* 18 Examen evaluación ordinaria
 * 23 __Evaluación [RFP](RFP/RFP.md)__
 * 25 __Evaluación cont. [RFP](RFP/RFP.md)__
 
 ## Junio
 
-* 6 Examen evaluación ordinaria
+* 6 Examen evaluación ordinaria --> Adelantado al 18 de Mayo
 * 16 Examen evaluación extraordinaria
