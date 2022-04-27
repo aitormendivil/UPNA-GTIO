@@ -1,4 +1,4 @@
-# RFI III. Proyecto Cats & Dogs - CI/CD & Arquitectura Cloud (DRAFT)
+# RFI III. Proyecto Cats & Dogs - CI/CD & Arquitectura Cloud
 
 ## Contexto
 
