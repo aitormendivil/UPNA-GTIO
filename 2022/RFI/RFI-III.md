@@ -56,8 +56,8 @@ horario habitual de la asignatura
 | Tema                                         | Puntuación |
 | -------------                                |       ---: |
 | Herramienta CI                                       | 5  |
-| Proceso CI                                           | 15 |
-| Documentación Arquitectura AWS                       | 10 |
+| Proceso CI                                           | 10 |
+| Documentación Arquitectura AWS                       | 15 |
 | Presentación/Demo                                    | 20 |
 | Total                                                | 50 |
 
