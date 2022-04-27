@@ -23,7 +23,7 @@ La empresa proveedora deberá dar respuesta justificada a los siguientes puntos:
 * ¿Cuáles son las herramientas CI?
 * ¿Cuál es la arquitectura en AWS de la solución?
 * ¿Qué servicios de AWS requiere el sistema?
-* ¿Cómo se despliega el sistema en AWS?
+* ¿Cuál es el plan de despliegue?
 * ¿Por qué es escalable y elástica la solución?
 
 ## Respuestas a este RFI
@@ -44,8 +44,8 @@ será bienvenido y considerado para una mayor puntuación en la evaluación
 
 ## Entrega
 
-* La fecha límite para la entrega del RFI será el: *21 de abril de 2021*
-* Se deberá realizar una presentación el mismo día *21 de abril de 2021* en el
+* La fecha límite para la entrega del RFI será el: *4 de mayo de 2022*
+* Se deberá realizar una presentación el mismo día *4 de mayo de 2022* en el
 horario habitual de la asignatura
 * La entrega será realizada mediante ficheros `.pdf`, o ficheros `.zip` con el código o documentación necesarias.
 * Se puede incluir todo el código y documentación que el proveedor considere necesaria
@@ -63,4 +63,4 @@ horario habitual de la asignatura
 
 ## Modificaciones sobre este RFI
 
-El cliente se guarda el derecho a modificar este RFI en cualquier momento, siendo obligado su aviso mediante anuncio en miAulario o e-mail a partir del día 12 de abril del 2021.
+El cliente se guarda el derecho a modificar este RFI en cualquier momento, siendo obligado su aviso mediante anuncio en miAulario o e-mail a partir del día 1 de mayo del 2022.
