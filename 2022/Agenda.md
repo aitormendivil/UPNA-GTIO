@@ -40,8 +40,8 @@
 
 ## Mayo
 
-* 2 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 4 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
+* 2 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
+* 4 __Evaluación [RFI III](RFI/RFI-III.md)__
 * 9 *Trabajo Libre*. Rendimiento.
 * 11 Pruebas de carga. APM y métricas cats & dogs.
 * 16 *Trabajo Libre*. Rendimiento.
