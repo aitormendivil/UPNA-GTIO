@@ -25,6 +25,7 @@ La empresa proveedora deberá dar respuesta justificada a los siguientes puntos:
 * ¿Qué servicios de AWS requiere el sistema?
 * ¿Cuál es el plan de despliegue?
 * ¿Por qué es escalable y elástica la solución?
+* ¿Cuáles serán los costes de la solución?
 
 ## Respuestas a este RFI
 
